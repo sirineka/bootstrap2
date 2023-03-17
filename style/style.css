@@ -1,0 +1,64 @@
+:root{
+    --primary: rgb(35, 67, 247);
+
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+/****************************header***********************/
+.navbar-links{
+    display: flex;
+    list-style: none;
+    gap: 2em;
+    padding: 2em;
+    border: 0;
+    align-items: center;
+
+}
+.navbar-links .grandspace{
+    flex: 3;
+}
+.navbar-links .title{
+    font-weight: bold;
+    font-size: 1.1em;
+}
+.navbar-links .dialog{
+    background-color: var(--primary);
+    padding: .5em;
+    border-radius: 25px;
+}
+.navbar-links .dialog a{
+    color: white;
+}
+/*****************showcase*****************/
+.showcase-row{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    padding: 5em;
+}
+.showcase-text{
+    width: 40%;
+}
+.showcase-img{
+    width: 40%;
+}
+.showcase-text .btn{
+    display: flex;
+}
+.showcase-text .btn img{
+    width:20%;
+    margin-top: 1em;
+}
+h1{
+ font-size: 3em;
+ margin-bottom: 1em;
+ }
+
